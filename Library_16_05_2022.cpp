@@ -447,7 +447,7 @@ int main()
 								cin >> pause;
 								break;
 							case 3:
-								pause = arr_books[index_book].genre;//Я использовал тут pause чтобы в лишний раз не создать переменную
+								pause = arr_books[index_book].genre;//Гџ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г« ГІГіГІ pause Г·ГІГ®ГЎГ» Гў Г«ГЁГёГ­ГЁГ© Г°Г Г§ Г­ГҐ Г±Г®Г§Г¤Г ГІГј ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ
 								cout << "Please enter new genre - ";
 								cin >> genre;
 								arr_books[index_book].genre = genre;
